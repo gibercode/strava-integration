@@ -1,0 +1,1 @@
+export const USER_ACTIVITIES = 'USER_ACTIVITIES'

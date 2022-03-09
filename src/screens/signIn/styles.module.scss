@@ -1,0 +1,35 @@
+$orange: #fc5200;
+$lightGray: #f7f7fa;
+
+.main { 
+  width: 100%;
+  min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $lightGray;
+}
+
+.button {
+	background-color: $orange;
+	border: solid 0.0625rem $orange;
+	padding: 0.7rem 4rem;
+	cursor: pointer;
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all .6s;
+
+	&:hover {
+		background-color: white;
+		border: solid 0.0625rem $orange;
+		color: $orange;
+		transition: all .6s;
+	}
+}
+
+.card {
+	padding: 4rem;
+	background-color: white;
+}
